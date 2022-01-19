@@ -1,0 +1,15 @@
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/bin/Debug/net6.0/W02_TicTacToe
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/bin/Debug/net6.0/W02_TicTacToe.deps.json
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/bin/Debug/net6.0/W02_TicTacToe.runtimeconfig.json
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/bin/Debug/net6.0/W02_TicTacToe.dll
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/bin/Debug/net6.0/ref/W02_TicTacToe.dll
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/bin/Debug/net6.0/W02_TicTacToe.pdb
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/obj/Debug/net6.0/W02_TicTacToe.csproj.AssemblyReference.cache
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/obj/Debug/net6.0/W02_TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/obj/Debug/net6.0/W02_TicTacToe.AssemblyInfoInputs.cache
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/obj/Debug/net6.0/W02_TicTacToe.AssemblyInfo.cs
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/obj/Debug/net6.0/W02_TicTacToe.csproj.CoreCompileInputs.cache
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/obj/Debug/net6.0/W02_TicTacToe.dll
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/obj/Debug/net6.0/ref/W02_TicTacToe.dll
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/obj/Debug/net6.0/W02_TicTacToe.pdb
+/Users/arstamm/Documents/2022_winter/cse210/W02_TicTacToe/obj/Debug/net6.0/W02_TicTacToe.genruntimeconfig.cache
