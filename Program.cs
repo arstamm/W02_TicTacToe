@@ -49,7 +49,7 @@ namespace W02_TicTacToe
                     if (isCat(board)) {
                         DisplayBoard(board);
                         PrintCat();
-                        Console.WriteLine($"\nYou have a Cat. Be careful, it scratches\n");
+                        Console.WriteLine($"\nYou have a Cat. Be careful. It scratches!\n");
                         goto End;
                     }
                 }
@@ -60,7 +60,9 @@ namespace W02_TicTacToe
         }
 
         static List<string> CreateBoard()
-        {
+        { /* Creates a new board
+        none --> none
+        */
             List<string> board = new List<string>();
             for (int i = 0; i < 9; i++) {
                 board.Add($"{i + 1}");
@@ -69,7 +71,9 @@ namespace W02_TicTacToe
         }
 
         static void DisplayBoard(List<string> board)
-        {   
+        { /* Given a list of nine strings, this function displays a board
+        List<string> board --> none
+        */
             Console.WriteLine($"\n{board[0]} | {board[1]} | {board[2]}");
             Console.WriteLine("- + - + -");
             Console.WriteLine($"{board[3]} | {board[4]} | {board[5]}");
@@ -78,7 +82,9 @@ namespace W02_TicTacToe
         }
 
         static bool isValidMove(List<string> board, string response)
-        {
+        { /* Given a board and a respone, this function says whether the response is a valid move.
+        List<string> board, string response --> bool
+        */
             if (board[int.Parse(response) - 1] == response)
             {
                 return true;
@@ -87,7 +93,9 @@ namespace W02_TicTacToe
         }
 
         static bool isWinning(List<string> board)
-        {
+        { /* Given a board, this function determines whether the board contains a winning row, column, or Diagnal.
+        List<string> board --> bool
+        */
             for (int i = 0; i < 3; i++) {
                 //Check columns and Check Rows
                 if (board[i] == board[i + 3] && board[i + 3] == board[i + 6] || board[i * 3] == board[i * 3 + 1] && board[i * 3 + 1] == board[i * 3 + 2]) {
@@ -102,7 +110,9 @@ namespace W02_TicTacToe
         }
 
         static bool isCat(List<string> board)
-        {
+        { /* Given a board, this function determines whether or not there is a tie, or a "cat"
+        List<string> board --> bool
+        */
             for (int i = 0; i < 9; i++) {
                 if (board[i] == $"{i + 1}") {
                     return false;
@@ -111,7 +121,9 @@ namespace W02_TicTacToe
             return true;
         }
         static void PrintCat()
-        {
+        { /* This function prints an ascii cat to the console.
+        none --> none
+        */
             Console.WriteLine("\n|\\___/|");
             Console.WriteLine("| * * |");
             Console.WriteLine("|  *  |");
