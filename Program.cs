@@ -1,4 +1,6 @@
-﻿/*
+﻿// Test Connection
+
+/*
 PROJECT: Tic Tac Toe
 CREATED BY; Andrew Stamm
 
